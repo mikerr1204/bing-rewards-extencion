@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Busqueda en Bing para rewards",
+  "version": "1.0",
+  "description": "Realiza búsquedas en Bing quitando la última letra hasta que solo quede una letra para acumular los puntos de rewards.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
